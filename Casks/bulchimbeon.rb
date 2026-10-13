@@ -1,6 +1,6 @@
 cask "bulchimbeon" do
-  version "0.3.0"
-  sha256 "6044fa9ad47fe723a20799c44de02d588ed1ced52194c88d69cfdf85c157e8ef"
+  version "0.3.1"
+  sha256 "66aeb810cd1c394404232c8e69447fd88c292a58d4af19ce9cd70b567fe9103b"
 
   url "https://github.com/s3onghyun/bulchimbeon/releases/download/v#{version}/Bulchimbeon-#{version}.zip"
   name "Bulchimbeon"
