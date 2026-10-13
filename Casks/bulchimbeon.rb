@@ -5,10 +5,10 @@ cask "bulchimbeon" do
   url "https://github.com/s3onghyun/bulchimbeon/releases/download/v#{version}/Bulchimbeon-#{version}.zip"
   name "Bulchimbeon"
   name "불침번"
-  desc "Menu bar night-watch soldier that keeps your Mac awake while AI agents work"
+  desc "Menu bar night-watch soldier that keeps the computer awake while AI agents work"
   homepage "https://github.com/s3onghyun/bulchimbeon"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Bulchimbeon.app"
 
