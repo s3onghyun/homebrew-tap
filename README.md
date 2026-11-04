@@ -8,6 +8,10 @@ brew install s3onghyun/tap/bulchimbeon-linux       # Linux
 brew services start bulchimbeon-linux              # Linux: systemd 사용자 유닛
 ```
 
+Homebrew 7 부터는 다른 tap 의 cask·formula 를 신뢰(trust)해야 읽는다. 위처럼 `s3onghyun/tap/<이름>`
+전체 이름으로 설치하면 그 하나를 저절로 신뢰하므로 위 명령은 그대로 된다. 설치 전에 `brew info` 로
+먼저 보려면 `brew trust --cask s3onghyun/tap/<이름>` (tap 전체는 `brew trust s3onghyun/tap`) 을 먼저 실행한다.
+
 | Cask | 설명 |
 |------|------|
 | [bulchimbeon](https://github.com/s3onghyun/bulchimbeon) | 🪖 불침번 — AI 에이전트가 일하는 동안 맥을 깨워두는 메뉴바 이등병 |
