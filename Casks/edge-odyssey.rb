@@ -1,6 +1,6 @@
 cask "edge-odyssey" do
-  version "0.3.0"
-  sha256 "f0de50e64e7ed4cd895a249392bea3fbffa439425b184d72ebb880b18003517e"
+  version "0.4.0"
+  sha256 "fafd79086e5ef2cf019d35cf87e9df2bc4ecf49d416fbeb33f366ec29e54dafd"
 
   url "https://github.com/s3onghyun/edge-odyssey/releases/download/v#{version}/Edge-Odyssey-#{version}-arm64.zip"
   name "Edge Odyssey"
@@ -12,7 +12,6 @@ cask "edge-odyssey" do
     strategy :github_latest
   end
 
-  depends_on arch: :arm64
   depends_on macos: :ventura
 
   app "Edge Odyssey.app"
