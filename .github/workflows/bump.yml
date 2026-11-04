@@ -1,0 +1,26 @@
+name: Bump casks
+
+# Daily, or by hand after a release: points each app cask at its latest GitHub release.
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Bump
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for c in token-yugong edge-odyssey; do scripts/bump-cask.sh "$c"; done
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Bump $(git diff --name-only | xargs -n1 basename | sed 's/\.rb$//' | tr '\n' ' ')"
+          git push
