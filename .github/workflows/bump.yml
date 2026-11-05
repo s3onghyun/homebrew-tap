@@ -1,9 +1,9 @@
 name: Bump casks
 
-# Daily, or by hand after a release: points each app cask at its latest GitHub release.
+# Hourly, or by hand after a release: points each app cask at its latest GitHub release.
 on:
   schedule:
-    - cron: '17 3 * * *'
+    - cron: '17 * * * *'   # hourly: GitHub may drop a scheduled run
   workflow_dispatch:
 
 permissions:
