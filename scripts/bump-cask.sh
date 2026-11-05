@@ -5,7 +5,9 @@
 set -eu
 cask="$(dirname "$0")/../Casks/$1.rb"
 repo=$(sed -n 's|^ *homepage "https://github.com/\(.*\)"|\1|p' "$cask")
-version=${2:-$(curl -fsSL "https://api.github.com/repos/$repo/releases/latest" | sed -n 's/^ *"tag_name": "v\{0,1\}\(.*\)",$/\1/p')}
+# gh authenticates with GH_TOKEN: the anonymous API is rate-limited (403) on shared runner IPs
+version=${2:-$(gh release view -R "$repo" --json tagName -q .tagName | sed 's/^v//')}
+[ -n "$version" ] || { echo "no latest release for $repo" >&2; exit 1; }
 url=$(sed -n 's/^ *url "\(.*\)"$/\1/p' "$cask" | sed "s/#{version}/$version/g")
 sha=$(curl -fsSL "$url.sha256" | cut -d' ' -f1)
 case $sha in *[!0-9a-f]*) sha= ;; esac
