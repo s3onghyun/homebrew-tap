@@ -7,12 +7,12 @@ class BulchimbeonLinux < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/s3onghyun/bulchimbeon/releases/download/v0.12.1/bulchimbeon_0.12.1_linux_amd64.tar.gz"
-      sha256 "97290505af7700094c5d21c8ecae1d53582739d1b6df976403925ba354df8168"
+      url "https://github.com/s3onghyun/bulchimbeon/releases/download/v0.12.2/bulchimbeon_0.12.2_linux_amd64.tar.gz"
+      sha256 "e452fa9e1908c478d1bb751db780c480f34c0293290cb21b5ea224dd4b5b1e18"
     end
     on_arm do
-      url "https://github.com/s3onghyun/bulchimbeon/releases/download/v0.12.1/bulchimbeon_0.12.1_linux_arm64.tar.gz"
-      sha256 "aa79e27f992a1e1710caa3ac58e3faa81950c49f1e6d533b62987e954b4a62e4"
+      url "https://github.com/s3onghyun/bulchimbeon/releases/download/v0.12.2/bulchimbeon_0.12.2_linux_arm64.tar.gz"
+      sha256 "8dcb4eb30c35b3b26d0d09a6c93916986e704fadbdaddd0b0f5eca744ffe85d6"
     end
   end
 
