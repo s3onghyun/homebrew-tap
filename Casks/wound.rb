@@ -1,6 +1,6 @@
 cask "wound" do
-  version "0.1.0"
-  sha256 "c38bb490e2bbe3141d6df58dffa16f1dbaaa313545ec49bd68bbea942bc1da72"
+  version "0.1.1"
+  sha256 "120a04898f8bf2eb37778c0fd9f97c75c64cd05f8cd5e934c82bfce7236483b7"
 
   url "https://github.com/s3onghyun/wound/releases/download/v#{version}/Wound-#{version}-macos-universal.zip"
   name "Wound"
