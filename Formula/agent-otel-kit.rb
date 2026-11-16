@@ -1,27 +1,27 @@
 class AgentOtelKit < Formula
-  desc "Point Claude Code, Codex and Gemini CLI at a local OpenTelemetry stack"
+  desc "Point Claude Code, Codex, Gemini CLI and Qwen Code at a local OTel stack"
   homepage "https://github.com/s3onghyun/agent-otel-kit"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.1.0/agent-otel-kit_0.1.0_darwin_amd64.tar.gz"
-      sha256 "f0a8899e14150b28b7556acdcafa8f638e28216abc8a32d964cc90c69e3d76eb"
+      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.2.0/agent-otel-kit_0.2.0_darwin_amd64.tar.gz"
+      sha256 "c566f0cd9266aba3a380ac018572055018b159d9b6f6d1866efaede5e29ebe14"
     end
     on_arm do
-      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.1.0/agent-otel-kit_0.1.0_darwin_arm64.tar.gz"
-      sha256 "baed389021359034954a69c69c856fac482c4781184176313c5b6c6a2b9473f7"
+      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.2.0/agent-otel-kit_0.2.0_darwin_arm64.tar.gz"
+      sha256 "04eef92703ffb4a6530988dae650e8695e131a4845a6b0ff327179c029426c43"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.1.0/agent-otel-kit_0.1.0_linux_amd64.tar.gz"
-      sha256 "6f615e15b417c51a55eb955e42475b986b9e43f5d0ce67d19f11e02872fd3add"
+      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.2.0/agent-otel-kit_0.2.0_linux_amd64.tar.gz"
+      sha256 "a1219171f9f86ff12873622166f6b2d1fd2760d44a4b439f6bb7ceed4a955063"
     end
     on_arm do
-      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.1.0/agent-otel-kit_0.1.0_linux_arm64.tar.gz"
-      sha256 "f8e28becc2266887ad055692ebc81a81c9eef511fe922777dd9592776777b24e"
+      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.2.0/agent-otel-kit_0.2.0_linux_arm64.tar.gz"
+      sha256 "a03123c568a088c2cd0a199f52d6e1b45a8df0c7fafc89dcf6093d780cea1fa1"
     end
   end
 

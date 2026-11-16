@@ -22,7 +22,7 @@ Homebrew 7 부터는 다른 tap 의 cask·formula 를 신뢰(trust)해야 읽는
 | Formula | 설명 |
 |---------|------|
 | [bulchimbeon-linux](https://github.com/s3onghyun/bulchimbeon#linux) | 🪖 불침번 리눅스 데몬 — AI 에이전트가 일하는 동안 잠자기를 막는다 (systemd 사용자 서비스) |
-| [agent-otel-kit](https://github.com/s3onghyun/agent-otel-kit) | 📈 Claude Code·Codex·Gemini CLI 텔레메트리를 로컬 OpenTelemetry 스택으로 보내는 설정·점검 CLI |
+| [agent-otel-kit](https://github.com/s3onghyun/agent-otel-kit) | 📈 Claude Code·Codex·Gemini CLI·Qwen Code 텔레메트리를 로컬 OpenTelemetry 스택으로 보내는 설정·점검 CLI |
 
 ## 새 버전 반영
 
