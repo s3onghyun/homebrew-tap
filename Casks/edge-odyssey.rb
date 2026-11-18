@@ -1,6 +1,6 @@
 cask "edge-odyssey" do
-  version "0.7.0"
-  sha256 "15c924799e4953ccc4c3f15baa9df099d9ecfe959145f96a8d580eb12e8b298d"
+  version "0.8.0"
+  sha256 "70b20de0ea9bbfad194b0b8d300cd35eef7b7459bab98351431b9395792ac5c4"
 
   url "https://github.com/s3onghyun/edge-odyssey/releases/download/v#{version}/Edge-Odyssey-#{version}-arm64.zip"
   name "Edge Odyssey"
