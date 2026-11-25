@@ -1,6 +1,6 @@
 cask "keyray" do
-  version "0.3.2"
-  sha256 "359c1f7d190010fae82bf79afcdbb906db7c6096f36aecc4004c143de2dba6ac"
+  version "0.3.3"
+  sha256 "b25f4cc0e8eaac2da5cf29ba0932cbc5a2d669a9602a5e5505ef2d78ea66af17"
 
   url "https://github.com/s3onghyun/keyray/releases/download/v#{version}/Keyray-#{version}.dmg"
   name "Keyray"
