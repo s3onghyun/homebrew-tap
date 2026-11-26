@@ -1,6 +1,6 @@
 cask "token-yugong" do
-  version "0.3.6"
-  sha256 "79120fad3ad7f9574906589ea0cdac28f20136e28af9132964fd7834843c5ded"
+  version "0.3.7"
+  sha256 "2733cc62e78a2f113d0a7ee9003269a189a699b3cc16df08c7c90bd77e272210"
 
   url "https://github.com/s3onghyun/token-yugong/releases/download/v#{version}/TokenYugong-#{version}-macos-universal.zip"
   name "Token Yugong"
