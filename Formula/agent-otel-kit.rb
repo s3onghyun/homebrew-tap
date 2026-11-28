@@ -5,23 +5,23 @@ class AgentOtelKit < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.2.0/agent-otel-kit_0.2.0_darwin_amd64.tar.gz"
-      sha256 "c566f0cd9266aba3a380ac018572055018b159d9b6f6d1866efaede5e29ebe14"
+      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.3.0/agent-otel-kit_0.3.0_darwin_amd64.tar.gz"
+      sha256 "e842cc6b309363698b7a113f031427993361ba83fc5e836ab740495969a3abfb"
     end
     on_arm do
-      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.2.0/agent-otel-kit_0.2.0_darwin_arm64.tar.gz"
-      sha256 "04eef92703ffb4a6530988dae650e8695e131a4845a6b0ff327179c029426c43"
+      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.3.0/agent-otel-kit_0.3.0_darwin_arm64.tar.gz"
+      sha256 "d93426427ed0b44b4ac118f1343ecf16862cc135d3d6df7893514a2fd8252220"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.2.0/agent-otel-kit_0.2.0_linux_amd64.tar.gz"
-      sha256 "a1219171f9f86ff12873622166f6b2d1fd2760d44a4b439f6bb7ceed4a955063"
+      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.3.0/agent-otel-kit_0.3.0_linux_amd64.tar.gz"
+      sha256 "7c56b907e8255a5dc6f70edc7ff9a6d2cccb832f38bc68470f1be2af4d652596"
     end
     on_arm do
-      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.2.0/agent-otel-kit_0.2.0_linux_arm64.tar.gz"
-      sha256 "a03123c568a088c2cd0a199f52d6e1b45a8df0c7fafc89dcf6093d780cea1fa1"
+      url "https://github.com/s3onghyun/agent-otel-kit/releases/download/v0.3.0/agent-otel-kit_0.3.0_linux_arm64.tar.gz"
+      sha256 "bd9f71627f8f3698b5d1934a4010a21dc31e2104aee49ab2e72d8c0161c8451a"
     end
   end
 
